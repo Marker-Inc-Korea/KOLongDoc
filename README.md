@@ -3,6 +3,7 @@
 <strong>VLM Benchmark for (Very) Long Korean Document😵😵</strong> 
 <br></br>
 </div>
+
 ![img](teaser.png)
 
 # News
