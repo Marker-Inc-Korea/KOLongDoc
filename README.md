@@ -16,8 +16,8 @@
 | ------ | --- | --- | --- |
 | gemini-3.1-pro | - | - | - |
 | gemini-3.1-flash | - | - | - |
-> L-Acc: Less than 60 pages
-> M-Acc: More than 60 pages
+> L-Acc: Less than 60 pages  
+> M-Acc: More than 60 pages  
 
 # References🌟
 [LongDocURL](https://arxiv.org/abs/2412.18424)
