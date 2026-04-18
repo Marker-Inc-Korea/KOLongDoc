@@ -2,8 +2,8 @@
 **VLM Benchmark for (Very) Long Korean Document😵😵**
 
 # News
-**() Dataset Huggingface😊:** [markrAI/KLongDoc]()
-**() KOLongDoc Blog😎**: []
+**() Dataset Huggingface😊:** [markrAI/KLongDoc]()  
+**() KOLongDoc Blog😎**: [Blog Posting]()
 
 # Introduction
 
