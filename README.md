@@ -17,9 +17,11 @@
 # Evaluation🤖
 
 # Results🤖
-| models | L-Acc | M-Acc | Avg. Acc |
+| models (input_type) | L-Acc | M-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.1-pro (image) | - | - | - |
+| gemini-3.1-pro (PDF) | - | - | - |
+| gemini-3.1-pro  (image) | - | - | - |
+| gemini-3.1-flash (PDF) | - | - | - |
 | gemini-3.1-flash (image) | - | - | - |
 > L-Acc: Less than 60 pages  
 > M-Acc: More than 60 pages  
