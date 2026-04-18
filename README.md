@@ -20,8 +20,8 @@
 > M-Acc: More than 60 pages  
 
 # TO-Do list
-- [ ]Release dataset
-- [ ]Release code
+- [ ] Release dataset
+- [ ] Release code
 
 # References🌟
 [LongDocURL](https://arxiv.org/abs/2412.18424)
