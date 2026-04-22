@@ -24,7 +24,7 @@
 | gemini-3.1-flash (text) | 72.46 | - | - |
 | gemini-3.1-flash (image) | 79.63 | - | - |
 | gemini-2.5-pro (text) | - | - | - |
-| gemini-2.5-pro (image) | - | - | - |
+| gemini-2.5-pro (image) | 82.39 | - | - |
 |  |
 | - | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
