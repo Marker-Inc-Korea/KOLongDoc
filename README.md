@@ -17,7 +17,7 @@
 # Evaluation🤖
 
 # Results🤖
-| models (input_type) | L-Acc | M-Acc | Avg. Acc |
+| models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
 | gemini-3.1-pro (text) | **75.29** | - | - |
 | gemini-3.1-pro  (image) | **85.34** | - | - |
@@ -27,8 +27,8 @@
 | gemini-2.5-pro (image) | - | - | - |
 |  |
 | - | - | - | - |
-> L-Acc: Less than 60 pages  
-> M-Acc: More than 60 pages  
+> L-Acc: Long pages (`< 60 pages`)  
+> SL-Acc: Super Long pages (`> 60 pages`)  
 
 # TO-Do list
 - [ ] Release dataset
