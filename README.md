@@ -27,8 +27,8 @@
 | gemini-2.5-pro (image) | - | - | - |
 |  |
 | - | - | - | - |
-> L-Acc: Long pages (`< 60 pages`)  
-> SL-Acc: Super Long pages (`> 60 pages`)  
+> L-Acc: Long Document (`< 60 pages`)  
+> SL-Acc: Super Long Document (`> 60 pages`)  
 
 # TO-Do list
 - [ ] Release dataset
