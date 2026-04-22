@@ -23,6 +23,9 @@
 | gemini-3.1-pro  (image) | **85.34** | - | - |
 | gemini-3.1-flash (text) | 72.46 | - | - |
 | gemini-3.1-flash (image) | 79.63 | - | - |
+| gemini-2.5-pro (text) | - | - | - |
+| gemini-2.5-pro (image) | - | - | - |
+| `Open Source` | - | - | - |
 > L-Acc: Less than 60 pages  
 > M-Acc: More than 60 pages  
 
