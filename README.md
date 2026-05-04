@@ -25,7 +25,7 @@
 | gemini-3.1-flash (image) | 79.63 | - | - |
 | gemini-2.5-pro (text) | **77.32** | - | - |
 | gemini-2.5-pro (image) | 82.39 | - | - |
-|  |
+| `Open-Source` |
 | - | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
