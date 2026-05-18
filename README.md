@@ -26,7 +26,17 @@
 | gemini-2.5-pro (text) | **77.32** | - | - |
 | gemini-2.5-pro (image) | 82.39 | - | - |
 | `Open-Source` |
-| - | - | - | - |
+| Qwen/Qwen3.6-35B-A3B | - | - | - |
+| Qwen/Qwen3.6-27B | - | - | - |
+| Qwen/Qwen3.5-35B-A3B | - | - | - |
+| Qwen/Qwen3.5-27B | - | - | - |
+| Qwen/Qwen3.5-9B | - | - | - |
+| Qwen3-VL-8B-Instruct | - | - | - |
+| google/gemma-4-31B-it | - | - | - |
+| google/gemma-4-E4B-it | - | - | - |
+| VARCO-VISION-2.0-14B-HF | - | - | - |
+| Gukbap-Ovis2-16B | - | - | - |
+| Bllossom-AICA-5B | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
