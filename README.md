@@ -24,7 +24,7 @@
 | gemini-3.1-flash (text) | 72.46 | 70.69 | - |
 | gemini-3.1-flash (image) | 79.63 | 84.19 | - |
 | gemini-2.5-pro (text) | **77.32** | - | - |
-| gemini-2.5-pro (image) | 82.39 | - | - |
+| gemini-2.5-pro (image) | 82.39 | 78.91 | - |
 | `Open-Source` |
 | Qwen/Qwen3.6-35B-A3B | - | - | - |
 | Qwen/Qwen3.6-27B | - | - | - |
