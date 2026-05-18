@@ -21,7 +21,7 @@
 | ------ | --- | --- | --- |
 | gemini-3.1-pro (text) | 75.29 | - | - |
 | gemini-3.1-pro  (image) | **85.34** | - | - |
-| gemini-3.1-flash (text) | 72.46 | - | - |
+| gemini-3.1-flash (text) | 72.46 | 70.69 | - |
 | gemini-3.1-flash (image) | 79.63 | - | - |
 | gemini-2.5-pro (text) | **77.32** | - | - |
 | gemini-2.5-pro (image) | 82.39 | - | - |
