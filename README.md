@@ -27,7 +27,7 @@ KOLongDoc는 총 100개의 문서를 **🌟매우 다양한 도메인🌟**에�
 - Super Long document: 60 페이지 이상의 문서들로 구성되며, 64문항으로 구성됨. (32개의 문서)
   
 각 문서들에서 multi-hop QA 문항을 제작한 방법은 다음과 같습니다:  
-- [gemini-prompt])를 통해 각 문서마다 question과 answer를 자동으로 생성합니다🤖.
+- [gemini-prompt](https://github.com/Marker-Inc-Korea/KOLongDoc/blob/main/gemini-prompt.txt)를 통해 각 문서마다 question과 answer를 자동으로 생성합니다🤖.
 - Human verification을 통해, 각 문항의 난이도와 multi-QA 여부를 확인하고, 질문의 퀄리티 향상 및 올바른 답변으로 수정하는 과정을 수행합니다🧐.
 - 마지막으로, **정확한 정량적 평가**를 위해서 정답으로 인정되기 위해서 필수적으로 담겨야하는 `keyword`를 인간이 직접 선별하는 과정을 수행합니다🧐.
   
