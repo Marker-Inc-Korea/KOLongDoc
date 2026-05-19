@@ -62,7 +62,7 @@ Keyword: [850000, '불가능']
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
 | gemini-3.1-pro (text) | 58.82 | 64.06 | - |
-| gemini-3.1-pro  (image) | **71.32** | - | - |
+| gemini-3.1-pro  (image) | **71.32** | **69.94** | - |
 | gemini-3.1-flash (text) | 55.15 | 53.13 | - |
 | gemini-3.1-flash (image) | 63.97 | 67.19 | - |
 | gemini-2.5-pro (text) | 64.71 | 60.94 | - |
