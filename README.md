@@ -23,6 +23,7 @@
 - [K-MMBench](https://huggingface.co/datasets/NCSOFT/K-MMBench) and [K-MMStar](https://huggingface.co/datasets/NCSOFT/K-MMStar): 한국어 기반 **이미지**에 대한 다양한 시각 이해 및 추론 능력 평가
 - [K-DTCBench](https://huggingface.co/datasets/NCSOFT/K-DTCBench): 한국어 **이미지** 기반 표·차트 이해 능력을 다양한 형식(디지털 및 손글씨)에서 이해 능력 평가
 - [K-LLAVA-W](https://huggingface.co/datasets/NCSOFT/K-LLaVA-W): 한국어 **이미지** 기반 실생활 기반 시각 이해 및 질의응답 능력을 평가
+
 위와 같이 다양한 데이터 형식과 이미지/문서를 기반으로 한국어 능력을 평가하고자 하는 움직임은 있었지만, **길이가 긴 한국어 문서에 대해 상당한 추론이 필요한 multi-hop VQA를 종합적으로 고려한 데이터셋**은 없었습니다.⚠️  
    
 ✨따라서 저희는 **KOLongDoc📄**라는 복잡하고 긴 한국어 문서에 대한 VLM 벤치마크를 소개합니다.✨  
