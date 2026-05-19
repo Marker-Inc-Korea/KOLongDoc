@@ -16,7 +16,7 @@
 
 # Evaluation🤖
 
-# Results🤖
+# Results (Soft)🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
 | gemini-3.1-pro (text) | 75.29 | 74.77 | 75.03 |
