@@ -61,12 +61,12 @@ Keyword: [850000, '불가능']
 # Results (Hard Ver.)🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.1-pro (text) | 58.82 | 64.06 | - |
-| gemini-3.1-pro  (image) | **71.32** | **69.94** | - |
-| gemini-3.1-flash (text) | 55.15 | 53.13 | - |
-| gemini-3.1-flash (image) | 63.97 | 67.19 | - |
-| gemini-2.5-pro (text) | 64.71 | 60.94 | - |
-| gemini-2.5-pro (image) | 66.91 | 59.38 | - |
+| gemini-3.1-pro (text) | 58.82 | 64.06 | 61.44 |
+| gemini-3.1-pro  (image) | **71.32** | **69.94** | **70.48** |
+| gemini-3.1-flash (text) | 55.15 | 53.13 | 54.14 |
+| gemini-3.1-flash (image) | 63.97 | 67.19 | 65.58 |
+| gemini-2.5-pro (text) | 64.71 | 60.94 | 62.83 |
+| gemini-2.5-pro (image) | 66.91 | 59.38 | 63.15 |
 | `Open-Source` |
 | Qwen/Qwen3.6-35B-A3B | - | - | - |
 | Qwen/Qwen3.5-9B | - | - | - |
