@@ -19,12 +19,12 @@
 # Results🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.1-pro (text) | 75.29 | 74.77 | - |
-| gemini-3.1-pro  (image) | **85.34** | **81.51** | - |
-| gemini-3.1-flash (text) | 72.46 | 70.69 | - |
-| gemini-3.1-flash (image) | 79.63 | 80.86 | - |
-| gemini-2.5-pro (text) | **77.32** | **75.88** | - |
-| gemini-2.5-pro (image) | 82.39 | 78.91 | - |
+| gemini-3.1-pro (text) | 75.29 | 74.77 | 75.030 |
+| gemini-3.1-pro  (image) | **85.34** | **81.51** | **83.43** |
+| gemini-3.1-flash (text) | 72.46 | 70.69 | 71.58 |
+| gemini-3.1-flash (image) | 79.63 | 80.86 | 80.23 |
+| gemini-2.5-pro (text) | 77.32** | 75.88 | 76.60 |
+| gemini-2.5-pro (image) | 82.39 | 78.91 | 80.65 |
 | `Open-Source` |
 | Qwen/Qwen3.6-35B-A3B | - | - | - |
 | Qwen/Qwen3.6-27B | - | - | - |
