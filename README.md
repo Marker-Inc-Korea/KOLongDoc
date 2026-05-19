@@ -11,10 +11,20 @@
 **() KOLongDoc Blog😎**: [Blog Posting]()
 
 # Introduction
+오늘날 멀티모달과 RAG에 대한 관심이 높아지면서, 공공업무나 행정업무에 ChatGPT, Claude와 같은 AI가 많이 도입되기 시작했습니다😎  
+이러한 흐름에 따라, 해외에는 긴 문서나 복잡한 문서에 대한 여러 벤치마크가 등장하고 있지만 여전히 국내에서는 이러한 데이터셋 및 벤치마크가 부족한 상황입니다.🥲  
+  
+✨따라서 저희는 **KOLongDoc📄**라는 복잡하고 긴 한국어 문서에 대한 VLM 벤치마크를 소개합니다✨!  
+이를 위해, 저희는 한국어 공공기관 문서를 [공공데이터포털](https://www.data.go.kr/)에서 수집한 후, multi-hop question and answering 문제를 제작하였습니다😎.   
+**KOLongDoc 벤치마크**는 총 200문항으로 구성되어 있으며, **복잡한 추론, multi-page understanding, 그리고 long-document understanding에 대한 한국어 능력을 평가**할 수 있습니다⭐!
+
+KOLongDoc가 한국어 벤치마크 및 한국어 멀티모달 모델 평가에 큰 도움이 될 것이라 생각합니다!🤗  
 
 # Details of Dataset📜
 
+
 # Evaluation🤖
+
 
 # Results (Soft)🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
