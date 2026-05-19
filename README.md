@@ -61,19 +61,15 @@ Keyword: [850000, '불가능']
 # Results (Hard Ver.)🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.1-pro (text) | - | - | - |
-| gemini-3.1-pro  (image) | - | - | - |
-| gemini-3.1-flash (text) | - | - | - |
-| gemini-3.1-flash (image) | - | - | - |
-| gemini-2.5-pro (text) | - | - | - |
-| gemini-2.5-pro (image) | - | - | - |
+| gemini-3.1-pro (text) | 58.82 | 64.06 | - |
+| gemini-3.1-pro  (image) | 71.32 | - | - |
+| gemini-3.1-flash (text) | 55.15 | 53.13 | - |
+| gemini-3.1-flash (image) | 63.97 | 67.19 | - |
+| gemini-2.5-pro (text) | 64.71 | 60.94 | - |
+| gemini-2.5-pro (image) | 66.91 | 59.38 | - |
 | `Open-Source` |
 | Qwen/Qwen3.6-35B-A3B | - | - | - |
-| Qwen/Qwen3.6-27B | - | - | - |
-| Qwen/Qwen3.5-35B-A3B | - | - | - |
-| Qwen/Qwen3.5-27B | - | - | - |
 | Qwen/Qwen3.5-9B | - | - | - |
-| Qwen3-VL-8B-Instruct | - | - | - |
 | google/gemma-4-31B-it | - | - | - |
 | google/gemma-4-E4B-it | - | - | - |
 | VARCO-VISION-2.0-14B-HF | - | - | - |
@@ -93,11 +89,7 @@ Keyword: [850000, '불가능']
 | gemini-2.5-pro (image) | 82.39 | 78.91 | 80.65 |
 | `Open-Source` |
 | Qwen/Qwen3.6-35B-A3B | - | - | - |
-| Qwen/Qwen3.6-27B | - | - | - |
-| Qwen/Qwen3.5-35B-A3B | - | - | - |
-| Qwen/Qwen3.5-27B | - | - | - |
 | Qwen/Qwen3.5-9B | - | - | - |
-| Qwen3-VL-8B-Instruct | - | - | - |
 | google/gemma-4-31B-it | - | - | - |
 | google/gemma-4-E4B-it | - | - | - |
 | VARCO-VISION-2.0-14B-HF | - | - | - |
