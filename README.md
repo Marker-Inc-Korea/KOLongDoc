@@ -58,6 +58,30 @@ Keyword: [850000, '불가능']
 # Evaluation🤖
 
 
+# Results (Hard Ver.)🤖
+| models (input_type) | L-Acc | SL-Acc | Avg. Acc |
+| ------ | --- | --- | --- |
+| gemini-3.1-pro (text) | - | - | - |
+| gemini-3.1-pro  (image) | - | - | - |
+| gemini-3.1-flash (text) | - | - | - |
+| gemini-3.1-flash (image) | - | - | - |
+| gemini-2.5-pro (text) | - | - | - |
+| gemini-2.5-pro (image) | - | - | - |
+| `Open-Source` |
+| Qwen/Qwen3.6-35B-A3B | - | - | - |
+| Qwen/Qwen3.6-27B | - | - | - |
+| Qwen/Qwen3.5-35B-A3B | - | - | - |
+| Qwen/Qwen3.5-27B | - | - | - |
+| Qwen/Qwen3.5-9B | - | - | - |
+| Qwen3-VL-8B-Instruct | - | - | - |
+| google/gemma-4-31B-it | - | - | - |
+| google/gemma-4-E4B-it | - | - | - |
+| VARCO-VISION-2.0-14B-HF | - | - | - |
+| Gukbap-Ovis2-16B | - | - | - |
+| Bllossom-AICA-5B | - | - | - |
+> L-Acc: Long Document (`< 60 pages`)  
+> SL-Acc: Super Long Document (`> 60 pages`)  
+
 # Results (Soft Ver.)🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
