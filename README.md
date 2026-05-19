@@ -19,7 +19,7 @@
 # Results🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.1-pro (text) | 75.29 | 74.77 | 75.030 |
+| gemini-3.1-pro (text) | 75.29 | 74.77 | 75.03 |
 | gemini-3.1-pro  (image) | **85.34** | **81.51** | **83.43** |
 | gemini-3.1-flash (text) | 72.46 | 70.69 | 71.58 |
 | gemini-3.1-flash (image) | 79.63 | 80.86 | 80.23 |
