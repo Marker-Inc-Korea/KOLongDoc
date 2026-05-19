@@ -13,7 +13,18 @@
 # Introduction
 오늘날 멀티모달과 RAG에 대한 관심이 높아지면서, 공공업무나 행정업무에 ChatGPT, Claude와 같은 AI가 많이 도입되기 시작했습니다.😎  
 이러한 흐름에 따라, 해외에는 긴 문서나 복잡한 문서에 대한 여러 벤치마크가 등장하고 있지만 여전히 국내에서는 이러한 데이터셋 및 벤치마크가 부족한 상황입니다.🥲  
-  
+
+기존 한국어 VLM의 성능을 측정하기 위한 벤치마크들은 여러가지 목적으로 공개가 되었습니다.🧐🧐
+- [KO-VQA](https://github.com/Marker-Inc-Korea/KO-VLM-Benchmark/tree/main/KO-VQA): 한국어 **문서**기반 이해 능력 평가
+- [KO-VDC](https://github.com/Marker-Inc-Korea/KO-VLM-Benchmark/blob/main/KO-VDC/README.md): 한국어 **문서** 기반 표/도식/그래프에 대한 적절한 설명문 생성 능력 평가
+- [KO-OCRAG](https://github.com/Marker-Inc-Korea/KO-VLM-Benchmark/tree/main/KO-OCRAG): 고해상도 한국어 **문서** OCR 능력 및 문서에 존재하는 visual information에 대한 text description 생성 능력 평가
+- [KOFFVQA](https://arxiv.org/html/2503.23730v1): 한국어 **이미지** 기반 객관적이고 신뢰성 있게 평가하기 위한 free-form  VQA 평가
+- [KoViDoRe](https://github.com/whybe-choi/KoVidore-benchmark): 한국어 시각 **문서** retrieval 능력 평가
+- [K-MMBench](https://huggingface.co/datasets/NCSOFT/K-MMBench) and [K-MMStar](https://huggingface.co/datasets/NCSOFT/K-MMStar): 한국어 기반 **이미지**에 대한 다양한 시각 이해 및 추론 능력 평가
+- [K-DTCBench](https://huggingface.co/datasets/NCSOFT/K-DTCBench): 한국어 **이미지** 기반 표·차트 이해 능력을 다양한 형식(디지털 및 손글씨)에서 이해 능력 평가
+- [K-LLAVA-W](https://huggingface.co/datasets/NCSOFT/K-LLaVA-W): 한국어 **이미지** 기반 실생활 기반 시각 이해 및 질의응답 능력을 평가
+위와 같이 다양한 데이터 형식과 이미지/문서를 기반으로 한국어 능력을 평가하고자 하는 움직임은 있었지만, **길이가 긴 한국어 문서에 대해 상당한 추론이 필요한 multi-hop VQA를 종합적으로 고려한 데이터셋**은 없었습니다.⚠️  
+   
 ✨따라서 저희는 **KOLongDoc📄**라는 복잡하고 긴 한국어 문서에 대한 VLM 벤치마크를 소개합니다.✨  
 이를 위해, 저희는 한국어 공공기관 문서를 [공공데이터포털](https://www.data.go.kr/)에서 수집한 후, multi-hop question and answering 문제를 제작하였습니다.😎  
 **KOLongDoc 벤치마크**는 총 200문항으로 구성되어 있으며, **복잡한 추론, multi-page understanding, 그리고 long-document understanding에 대한 한국어 능력을 평가**할 수 있습니다.⭐  
@@ -56,7 +67,7 @@ Keyword: [850000, '불가능']
 자세한 평가방식은 다음 섹션을 참고해주세요.
 
 # Evaluation🤖
-모델 평가는 'Accuracy'를 기반으로 구성됩니다.🔥   
+모델 평가는 `Accuracy`를 기반으로 구성됩니다.🔥   
 모델 답변 안에서 `Keyword`에 해당하는 단어들이 얼마나 들어가 있는지 비율을 토대로 평가를 진행하게 됩니다.
 
 예시는 다음과 같습니다🤗:  
