@@ -7,8 +7,8 @@
 ![img](teaser.png)
 
 # News
-**() Dataset Huggingface😊:** [markrAI/KLongDoc]()  
-**() KOLongDoc Blog😎**: [Blog Posting]()
+**Dataset Huggingface😊:** [Markr-AI/KOLongDoc](https://huggingface.co/datasets/Markr-AI/KOLongDoc)  
+**KOLongDoc Blog😎**: [Blog Posting]()
 
 # Introduction
 오늘날 멀티모달과 RAG에 대한 관심이 높아지면서, 공공업무나 행정업무에 ChatGPT, Claude와 같은 AI가 많이 도입되기 시작했습니다.😎  
@@ -159,8 +159,8 @@ Accuracy: 50%
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
 # TO-Do list
-- [ ] Release dataset
-- [ ] Release code
+- [x] Release dataset
+- [ ] Release eval code
 
 # References🌟
 [LongDocURL](https://arxiv.org/abs/2412.18424)  
