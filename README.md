@@ -118,51 +118,85 @@ Accuracy: 50%
 - `Hard` Version: 0 or 1로 평가하는 방법. (100% 정확도만을 정답으로 인정)
 - `Soft` Version: 0~1 사이로 평가하는 방법.
 
-그리고 document input type에 따른 모델 능력을 평가하기 위해서 다음과 같이 평가를 진행됩니다:
+그리고 document input type에 따른 모델 능력을 비교하기 위해서 다음과 같이 평가를 진행됩니다:
 - text: `pymuPDF` 모듈을 활용하여, 텍스트를 전부 추출한 후 모델에 전달
 - image: PDF를 이미지 형식으로 모델에 전달
 
 # Results (Hard Ver.)🤖
+## Input type: Image🖼️
+| models (input_type) | L-Acc | SL-Acc | Avg. Acc |
+| ------ | --- | --- | --- |
+| gemini-3.1-pro (image) | **71.32** | **69.94** | **70.48** |
+| gemini-3.1-flash (image) | 63.97 | 67.19 | 65.58 |
+| gemini-2.5-pro (image) | 66.91 | 59.38 | 63.15 |
+| `Open-Source` |
+| Qwen3.6-27B (image) | - | - | - |
+| Qwen3.5-9B (image) | - | - | - |
+| gemma-4-31B-it (image) | - | - | - |
+| gemma-4-E4B-it (image) | - | - | - |
+| EXAONE-4.5-33B (image) | - | - | - |
+| VARCO-VISION-2.0-14B-HF (image) | - | - | - |
+| kanana-1.5-v-3b-instruct (image) | - | - | - |
+| Gukbap-Ovis2-16B (image) | - | - | - |
+| Bllossom-AICA-5B (image) | - | - | - |
+> L-Acc: Long Document (`< 60 pages`)  
+> SL-Acc: Super Long Document (`> 60 pages`)
+
+## Input type: Text📜
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
 | gemini-3.1-pro (text) | 58.82 | 64.06 | 61.44 |
-| gemini-3.1-pro  (image) | **71.32** | **69.94** | **70.48** |
 | gemini-3.1-flash (text) | 55.15 | 53.13 | 54.14 |
-| gemini-3.1-flash (image) | 63.97 | 67.19 | 65.58 |
 | gemini-2.5-pro (text) | 64.71 | 60.94 | 62.83 |
-| gemini-2.5-pro (image) | 66.91 | 59.38 | 63.15 |
 | `Open-Source` |
-| Qwen3.6-27B | - | - | - |
-| Qwen3.5-9B | - | - | - |
-| gemma-4-31B-it | - | - | - |
-| gemma-4-E4B-it | - | - | - |
-| EXAONE-4.5-33B | - | - | - |
-| VARCO-VISION-2.0-14B-HF | - | - | - |
-| kanana-1.5-v-3b-instruct | - | - | - |
-| Gukbap-Ovis2-16B | - | - | - |
-| Bllossom-AICA-5B | - | - | - |
+| Qwen3.6-27B (text) | - | - | - |
+| Qwen3.5-9B (text) | - | - | - |
+| gemma-4-31B-it (text) | - | - | - |
+| gemma-4-E4B-it (text) | - | - | - |
+| EXAONE-4.5-33B (text) | - | - | - |
+| VARCO-VISION-2.0-14B-HF (text) | - | - | - |
+| kanana-1.5-v-3b-instruct (text) | - | - | - |
+| Gukbap-Ovis2-16B (text) | - | - | - |
+| Bllossom-AICA-5B (text) | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
 # Results (Soft Ver.)🤖
+## Input type: Image🖼️
+| models (input_type) | L-Acc | SL-Acc | Avg. Acc |
+| ------ | --- | --- | --- |
+| gemini-3.1-pro  (image) | **85.34** | **81.51** | **83.43** |
+| gemini-3.1-flash (image) | 79.63 | 80.86 | 80.23 |
+| gemini-2.5-pro (image) | 82.39 | 78.91 | 80.65 |
+| `Open-Source` |
+| Qwen3.6-27B (image) | - | - | - |
+| Qwen3.5-9B (image) | - | - | - |
+| gemma-4-31B-it (image) | - | - | - |
+| gemma-4-E4B-it (image) | - | - | - |
+| EXAONE-4.5-33B (image) | - | - | - |
+| VARCO-VISION-2.0-14B-HF (image) | - | - | - |
+| kanana-1.5-v-3b-instruct (image) | - | - | - |
+| Gukbap-Ovis2-16B (image) | - | - | - |
+| Bllossom-AICA-5B (image) | - | - | - |
+> L-Acc: Long Document (`< 60 pages`)  
+> SL-Acc: Super Long Document (`> 60 pages`)  
+
+## Input type: Text📜
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
 | gemini-3.1-pro (text) | 75.29 | 74.77 | 75.03 |
-| gemini-3.1-pro  (image) | **85.34** | **81.51** | **83.43** |
 | gemini-3.1-flash (text) | 72.46 | 70.69 | 71.58 |
-| gemini-3.1-flash (image) | 79.63 | 80.86 | 80.23 |
 | gemini-2.5-pro (text) | 77.32 | 75.88 | 76.60 |
-| gemini-2.5-pro (image) | 82.39 | 78.91 | 80.65 |
 | `Open-Source` |
-| Qwen3.6-27B | - | - | - |
-| Qwen3.5-9B | - | - | - |
-| gemma-4-31B-it | - | - | - |
-| gemma-4-E4B-it | - | - | - |
-| EXAONE-4.5-33B | - | - | - |
-| VARCO-VISION-2.0-14B-HF | - | - | - |
-| kanana-1.5-v-3b-instruct | - | - | - |
-| Gukbap-Ovis2-16B | - | - | - |
-| Bllossom-AICA-5B | - | - | - |
+| Qwen3.6-27B (text) | - | - | - |
+| Qwen3.5-9B (text) | - | - | - |
+| gemma-4-31B-it (text) | - | - | - |
+| gemma-4-E4B-it (text) | - | - | - |
+| EXAONE-4.5-33B (text) | - | - | - |
+| VARCO-VISION-2.0-14B-HF (text) | - | - | - |
+| kanana-1.5-v-3b-instruct (text) | - | - | - |
+| Gukbap-Ovis2-16B (text) | - | - | - |
+| Bllossom-AICA-5B (text) | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
