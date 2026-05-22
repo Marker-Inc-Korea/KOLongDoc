@@ -122,7 +122,7 @@ Accuracy: 50%
 - text: `pymuPDF` 모듈을 활용하여, 텍스트를 전부 추출한 후 모델에 전달
 - image: PDF를 이미지 형식으로 모델에 전달
 
-# Results (Hard Ver.)🤖
+# Results (Hard Ver.)🔥🤖🔥
 ## Input type: Image🖼️
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
