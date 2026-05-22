@@ -132,6 +132,7 @@ Accuracy: 50%
 | Qwen/Qwen3.5-9B | - | - | - |
 | google/gemma-4-31B-it | - | - | - |
 | google/gemma-4-E4B-it | - | - | - |
+| EXAONE-4.5-33B | - | - | - |
 | VARCO-VISION-2.0-14B-HF | - | - | - |
 | kanana-1.5-v-3b-instruct | - | - | - |
 | Gukbap-Ovis2-16B | - | - | - |
@@ -153,6 +154,7 @@ Accuracy: 50%
 | Qwen/Qwen3.5-9B | - | - | - |
 | google/gemma-4-31B-it | - | - | - |
 | google/gemma-4-E4B-it | - | - | - |
+| EXAONE-4.5-33B | - | - | - |
 | VARCO-VISION-2.0-14B-HF | - | - | - |
 | kanana-1.5-v-3b-instruct | - | - | - |
 | Gukbap-Ovis2-16B | - | - | - |
