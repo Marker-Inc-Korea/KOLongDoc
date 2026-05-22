@@ -128,10 +128,10 @@ Accuracy: 50%
 | gemini-2.5-pro (text) | 64.71 | 60.94 | 62.83 |
 | gemini-2.5-pro (image) | 66.91 | 59.38 | 63.15 |
 | `Open-Source` |
-| Qwen/Qwen3.6-35B-A3B | - | - | - |
-| Qwen/Qwen3.5-9B | - | - | - |
-| google/gemma-4-31B-it | - | - | - |
-| google/gemma-4-E4B-it | - | - | - |
+| Qwen3.6-27B | - | - | - |
+| Qwen3.5-9B | - | - | - |
+| gemma-4-31B-it | - | - | - |
+| gemma-4-E4B-it | - | - | - |
 | EXAONE-4.5-33B | - | - | - |
 | VARCO-VISION-2.0-14B-HF | - | - | - |
 | kanana-1.5-v-3b-instruct | - | - | - |
@@ -150,10 +150,10 @@ Accuracy: 50%
 | gemini-2.5-pro (text) | 77.32 | 75.88 | 76.60 |
 | gemini-2.5-pro (image) | 82.39 | 78.91 | 80.65 |
 | `Open-Source` |
-| Qwen/Qwen3.6-35B-A3B | - | - | - |
-| Qwen/Qwen3.5-9B | - | - | - |
-| google/gemma-4-31B-it | - | - | - |
-| google/gemma-4-E4B-it | - | - | - |
+| Qwen3.6-27B | - | - | - |
+| Qwen3.5-9B | - | - | - |
+| gemma-4-31B-it | - | - | - |
+| gemma-4-E4B-it | - | - | - |
 | EXAONE-4.5-33B | - | - | - |
 | VARCO-VISION-2.0-14B-HF | - | - | - |
 | kanana-1.5-v-3b-instruct | - | - | - |
