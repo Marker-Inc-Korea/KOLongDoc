@@ -115,13 +115,17 @@ Accuracy: 50%
 ```
   
 위와 같은 평가 시스템을 기반으로 총 2가지 버전의 성능평가 테이블을 공유합니다:
-- Hard Version: 0 or 1로 평가하는 방법. (100% 정확도만을 정답으로 인정)
-- Soft Version: 0~1 사이로 평가하는 방법.
+- `Hard` Version: 0 or 1로 평가하는 방법. (100% 정확도만을 정답으로 인정)
+- `Soft` Version: 0~1 사이로 평가하는 방법.
+
+그리고 document input type에 따른 모델 능력을 평가하기 위해서 다음과 같이 평가를 진행됩니다:
+- text: `pymuPDF` 모듈을 활용하여, 텍스트를 전부 추출한 후 모델에 전달
+- image: PDF를 이미지 형식으로 모델에 전달
 
 # Results (Hard Ver.)🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.1-pro (text) | 58.82 / 71.32 | 64.06 | 61.44 |
+| gemini-3.1-pro (text) | 58.82 | 64.06 | 61.44 |
 | gemini-3.1-pro  (image) | **71.32** | **69.94** | **70.48** |
 | gemini-3.1-flash (text) | 55.15 | 53.13 | 54.14 |
 | gemini-3.1-flash (image) | 63.97 | 67.19 | 65.58 |
