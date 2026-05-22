@@ -133,6 +133,7 @@ Accuracy: 50%
 | google/gemma-4-31B-it | - | - | - |
 | google/gemma-4-E4B-it | - | - | - |
 | VARCO-VISION-2.0-14B-HF | - | - | - |
+| kanana-1.5-v-3b-instruct | - | - | - |
 | Gukbap-Ovis2-16B | - | - | - |
 | Bllossom-AICA-5B | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
@@ -153,6 +154,7 @@ Accuracy: 50%
 | google/gemma-4-31B-it | - | - | - |
 | google/gemma-4-E4B-it | - | - | - |
 | VARCO-VISION-2.0-14B-HF | - | - | - |
+| kanana-1.5-v-3b-instruct | - | - | - |
 | Gukbap-Ovis2-16B | - | - | - |
 | Bllossom-AICA-5B | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
