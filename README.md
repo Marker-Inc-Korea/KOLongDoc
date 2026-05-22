@@ -121,7 +121,7 @@ Accuracy: 50%
 # Results (Hard Ver.)🤖
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.1-pro (text) | 58.82 | 64.06 | 61.44 |
+| gemini-3.1-pro (text) | 58.82 / 71.32 | 64.06 | 61.44 |
 | gemini-3.1-pro  (image) | **71.32** | **69.94** | **70.48** |
 | gemini-3.1-flash (text) | 55.15 | 53.13 | 54.14 |
 | gemini-3.1-flash (image) | 63.97 | 67.19 | 65.58 |
