@@ -122,6 +122,9 @@ Accuracy: 50%
 - text: `pymuPDF` 모듈을 활용하여, 텍스트를 전부 추출한 후 모델에 전달
 - image: PDF를 이미지 형식으로 모델에 전달
 
+모든 평가는 `max_token: 8192`와 한 개의 A100 80GB GPU를 활용해서 수행했습니다!  
+자세한 평가는 코드를 참고해주세요!
+
 # Results (Hard Ver.)🔥🤖🔥
 ## Input type: Image🖼️
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
@@ -192,7 +195,7 @@ Accuracy: 50%
 | gemini-3.1-flash (text) | 72.46 | 70.69 | 71.58 |
 | gemini-2.5-pro (text) | 77.32 | 75.88 | 76.60 |
 | `Open-Source` |
-| Qwen3.6-27B (text) | - | - | - |
+| Qwen3.6-27B (text) | 79.08 | `OOM` | `??` |
 | Qwen3.5-9B (text) | 73.13 | - | - |
 | gemma-4-31B-it (text) | - | - | - |
 | gemma-4-E4B-it (text) | - | - | - |
