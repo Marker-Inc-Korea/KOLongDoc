@@ -141,7 +141,6 @@ Accuracy: 50%
 | EXAONE-4.5-33B (image) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (image) | 0.74 | `timeout` | `timeout` |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
-| Gukbap-Ovis2-16B (image) | - | - | - |
 | Bllossom-AICA-5B (image) | `timeout` | `timeout` | `timeout` |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
@@ -162,7 +161,6 @@ Accuracy: 50%
 | EXAONE-4.5-33B (text) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (text) | 13.24 | `OOM` | `OOM` |
 | kanana-1.5-v-3b-instruct (text) | - | - | - |
-| Gukbap-Ovis2-16B (text) | - | - | - |
 | Bllossom-AICA-5B (text) | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
@@ -183,7 +181,6 @@ Accuracy: 50%
 | EXAONE-4.5-33B (image) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (image) | 4.79 | `timeout` | `timeout` |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
-| Gukbap-Ovis2-16B (image) | - | - | - |
 | Bllossom-AICA-5B (image) | `timeout` | `timeout` | `timeout` |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
@@ -204,7 +201,6 @@ Accuracy: 50%
 | EXAONE-4.5-33B (text) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (text) | 18.96 | `OOM` | `OOM` |
 | kanana-1.5-v-3b-instruct (text) | - | - | - |
-| Gukbap-Ovis2-16B (text) | - | - | - |
 | Bllossom-AICA-5B (text) | - | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
