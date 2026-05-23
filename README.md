@@ -129,7 +129,7 @@ Accuracy: 50%
 ## Input type: Image🖼️
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.5-flash (image) | **82.35** | - | - |
+| gemini-3.5-flash (image) | **82.35** | **82.81** | **82.58** |
 | gemini-3.1-pro (image) | 71.32 | 69.94 | 70.48 |
 | gemini-3.1-flash (image) | 63.97 | 67.19 | 65.58 |
 | gemini-2.5-pro (image) | 66.91 | 59.38 | 63.15 |
@@ -171,7 +171,7 @@ Accuracy: 50%
 ## Input type: Image🖼️
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.5-flash (image) | **91.95** | - | - |
+| gemini-3.5-flash (image) | **91.95** | **90.34** | **91.15** |
 | gemini-3.1-pro  (image) | 85.34 | 81.51 | 83.43 |
 | gemini-3.1-flash (image) | 79.63 | 80.86 | 80.23 |
 | gemini-2.5-pro (image) | 82.39 | 78.91 | 80.65 |
