@@ -149,7 +149,7 @@ Accuracy: 50%
 ## Input type: Text📜
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.5-flash (text) | - | - | - |
+| gemini-3.5-flash (text) | 69.85 | - | - |
 | gemini-3.1-pro (text) | 58.82 | 64.06 | 61.44 |
 | gemini-3.1-flash (text) | 55.15 | 53.13 | 54.14 |
 | gemini-2.5-pro (text) | 64.71 | 60.94 | 62.83 |
