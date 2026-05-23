@@ -139,7 +139,7 @@ Accuracy: 50%
 | gemma-4-31B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 19.11 | `OOM` | `??` |
 | EXAONE-4.5-33B (image) | - | - | - |
-| VARCO-VISION-2.0-14B-HF (image) | - | - | - |
+| VARCO-VISION-2.0-14B-HF (image) | 0.74 | - | - |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
 | Gukbap-Ovis2-16B (image) | - | - | - |
 | Bllossom-AICA-5B (image) | - | - | - |
@@ -180,7 +180,7 @@ Accuracy: 50%
 | gemma-4-31B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 35.81 | `OOM` | `??` |
 | EXAONE-4.5-33B (image) | - | - | - |
-| VARCO-VISION-2.0-14B-HF (image) | - | - | - |
+| VARCO-VISION-2.0-14B-HF (image) | 4.79 | - | - |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
 | Gukbap-Ovis2-16B (image) | - | - | - |
 | Bllossom-AICA-5B (image) | - | - | - |
