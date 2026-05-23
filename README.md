@@ -24,9 +24,9 @@
 - [K-DTCBench](https://huggingface.co/datasets/NCSOFT/K-DTCBench): 한국어 **이미지** 기반 표·차트 이해 능력을 다양한 형식(디지털 및 손글씨)에서 이해 능력 평가
 - [K-LLAVA-W](https://huggingface.co/datasets/NCSOFT/K-LLaVA-W): 한국어 **이미지** 기반 실생활 기반 시각 이해 및 질의응답 능력을 평가
 
-위와 같이 다양한 데이터 형식과 이미지/문서를 기반으로 한국어 능력을 평가하고자 하는 움직임은 있었지만, **길이가 긴 한국어 문서에 대해 상당한 추론이 필요한 multi-hop VQA를 종합적으로 고려한 데이터셋**은 없었습니다.⚠️  
+위와 같이 다양한 데이터 형식과 이미지/문서를 기반으로 한국어 능력을 평가하고자 하는 움직임은 있었지만, **길이가 긴 고해상도 한국어 문서에 대한 multi-hop VQA를 종합적으로 고려한 데이터셋**은 없었습니다.⚠️  
    
-✨따라서 저희는 **KOLongDoc📄**라는 복잡하고 긴 한국어 문서에 대한 VLM 벤치마크를 소개합니다.✨  
+✨따라서 저희는 **KOLongDoc📄**라는 복잡하고 긴 고해상도 한국어 문서에 대한 VLM 벤치마크를 소개합니다.✨  
 이를 위해, 저희는 한국어 공공기관 문서를 [공공데이터포털](https://www.data.go.kr/)에서 수집한 후, multi-hop question and answering 문제를 제작하였습니다.😎  
 **KOLongDoc 벤치마크**는 총 200문항으로 구성되어 있으며, **복잡한 추론, multi-page understanding, 그리고 long-document understanding에 대한 한국어 능력을 평가**할 수 있습니다.⭐  
 
