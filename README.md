@@ -135,7 +135,7 @@ Accuracy: 50%
 | gemini-2.5-pro (image) | 66.91 | 59.38 | 63.15 |
 | `Open-Source` |
 | Qwen3.6-27B (image) | - | - | - |
-| Qwen3.5-9B (image) | - | - | - |
+| Qwen3.5-9B (image) | 7.35 | - | - |
 | gemma-4-31B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 19.11 | `OOM` | `OOM` |
 | EXAONE-4.5-33B (image) | - | - | - |
@@ -175,7 +175,7 @@ Accuracy: 50%
 | gemini-2.5-pro (image) | 82.39 | 78.91 | 80.65 |
 | `Open-Source` |
 | Qwen3.6-27B (image) | - | - | - |
-| Qwen3.5-9B (image) | - | - | - |
+| Qwen3.5-9B (image) | 18.44 | - | - |
 | gemma-4-31B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 35.81 | `OOM` | `OOM` |
 | EXAONE-4.5-33B (image) | - | - | - |
