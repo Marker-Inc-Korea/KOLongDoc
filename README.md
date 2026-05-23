@@ -134,7 +134,7 @@ Accuracy: 50%
 | gemini-3.1-flash (image) | 63.97 | 67.19 | 65.58 |
 | gemini-2.5-pro (image) | 66.91 | 59.38 | 63.15 |
 | `Open-Source` |
-| Qwen3.6-27B (image) | - | - | - |
+| Qwen3.6-27B (image) | 8.82 | - | - |
 | Qwen3.5-9B (image) | 7.35 | - | - |
 | gemma-4-31B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 19.11 | `OOM` | `OOM` |
@@ -174,7 +174,7 @@ Accuracy: 50%
 | gemini-3.1-flash (image) | 79.63 | 80.86 | 80.23 |
 | gemini-2.5-pro (image) | 82.39 | 78.91 | 80.65 |
 | `Open-Source` |
-| Qwen3.6-27B (image) | - | - | - |
+| Qwen3.6-27B (image) | 19.98 | - | - |
 | Qwen3.5-9B (image) | 18.44 | - | - |
 | gemma-4-31B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 35.81 | `OOM` | `OOM` |
