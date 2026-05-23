@@ -137,7 +137,7 @@ Accuracy: 50%
 | Qwen3.6-27B (image) | - | - | - |
 | Qwen3.5-9B (image) | - | - | - |
 | gemma-4-31B-it (image) | - | - | - |
-| gemma-4-E4B-it (image) | 19.11 | `OOM` | `??` |
+| gemma-4-E4B-it (image) | 19.11 | `OOM` | `OOM` |
 | EXAONE-4.5-33B (image) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (image) | 0.74 | `timeout` | `timeout` |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
@@ -158,9 +158,9 @@ Accuracy: 50%
 | Qwen3.6-27B (text) | 65.44 | - | - |
 | Qwen3.5-9B (text) | 60.29 | 48.44 | 54.37 |
 | gemma-4-31B-it (text) | - | - | - |
-| gemma-4-E4B-it (text) | 44.62 | `OOM` | `??` |
+| gemma-4-E4B-it (text) | 44.62 | `OOM` | `OOM` |
 | EXAONE-4.5-33B (text) | - | - | - |
-| VARCO-VISION-2.0-14B-HF (text) | 13.24 | `OOM` | `??` |
+| VARCO-VISION-2.0-14B-HF (text) | 13.24 | `OOM` | `OOM` |
 | kanana-1.5-v-3b-instruct (text) | - | - | - |
 | Gukbap-Ovis2-16B (text) | - | - | - |
 | Bllossom-AICA-5B (text) | - | - | - |
@@ -179,7 +179,7 @@ Accuracy: 50%
 | Qwen3.6-27B (image) | - | - | - |
 | Qwen3.5-9B (image) | - | - | - |
 | gemma-4-31B-it (image) | - | - | - |
-| gemma-4-E4B-it (image) | 35.81 | `OOM` | `??` |
+| gemma-4-E4B-it (image) | 35.81 | `OOM` | `OOM` |
 | EXAONE-4.5-33B (image) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (image) | 4.79 | `timeout` | `timeout` |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
@@ -200,9 +200,9 @@ Accuracy: 50%
 | Qwen3.6-27B (text) | 79.08 | - | - |
 | Qwen3.5-9B (text) | 73.13 | 68.55 | 70.84 |
 | gemma-4-31B-it (text) | - | - | - |
-| gemma-4-E4B-it (text) | 62.88 | `OOM` | `??` |
+| gemma-4-E4B-it (text) | 62.88 | `OOM` | `OOM` |
 | EXAONE-4.5-33B (text) | - | - | - |
-| VARCO-VISION-2.0-14B-HF (text) | 18.96 | `OOM` | `??` |
+| VARCO-VISION-2.0-14B-HF (text) | 18.96 | `OOM` | `OOM` |
 | kanana-1.5-v-3b-instruct (text) | - | - | - |
 | Gukbap-Ovis2-16B (text) | - | - | - |
 | Bllossom-AICA-5B (text) | - | - | - |
