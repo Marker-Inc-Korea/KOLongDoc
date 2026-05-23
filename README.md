@@ -150,7 +150,7 @@ Accuracy: 50%
 ## Input type: Text📜
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.5-flash (text) | **69.85** | - | - |
+| gemini-3.5-flash (text) | **69.85** | **67.19** | **68.52** |
 | gemini-3.1-pro (text) | 58.82 | 64.06 | 61.44 |
 | gemini-3.1-flash (text) | 55.15 | 53.13 | 54.14 |
 | gemini-2.5-pro (text) | 64.71 | 60.94 | 62.83 |
@@ -192,10 +192,10 @@ Accuracy: 50%
 ## Input type: Text📜
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
 | ------ | --- | --- | --- |
-| gemini-3.5-flash (text) | **79.40** | - | - |
+| gemini-3.5-flash (text) | **79.40** | 74.11 | **76.76** |
 | gemini-3.1-pro (text) | 75.29 | 74.77 | 75.03 |
 | gemini-3.1-flash (text) | 72.46 | 70.69 | 71.58 |
-| gemini-2.5-pro (text) | 77.32 | 75.88 | 76.60 |
+| gemini-2.5-pro (text) | 77.32 | **75.88** | 76.60 |
 | `Open-Source` |
 | Qwen3.6-27B (text) | 79.08 | - | - |
 | Qwen3.5-9B (text) | 73.13 | 68.55 | 70.84 |
