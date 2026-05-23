@@ -139,12 +139,13 @@ Accuracy: 50%
 | gemma-4-31B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 19.11 | `OOM` | `??` |
 | EXAONE-4.5-33B (image) | - | - | - |
-| VARCO-VISION-2.0-14B-HF (image) | 0.74 | - | - |
+| VARCO-VISION-2.0-14B-HF (image) | 0.74 | `timeout` | `??` |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
 | Gukbap-Ovis2-16B (image) | - | - | - |
-| Bllossom-AICA-5B (image) | - | - | - |
+| Bllossom-AICA-5B (image) | `timeout` | `timeout` | `??` |
 > L-Acc: Long Document (`< 60 pages`)  
-> SL-Acc: Super Long Document (`> 60 pages`)
+> SL-Acc: Super Long Document (`> 60 pages`)  
+> timeout: It's too slow to test.
 
 ## Input type: Text📜
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
@@ -180,12 +181,13 @@ Accuracy: 50%
 | gemma-4-31B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 35.81 | `OOM` | `??` |
 | EXAONE-4.5-33B (image) | - | - | - |
-| VARCO-VISION-2.0-14B-HF (image) | 4.79 | - | - |
+| VARCO-VISION-2.0-14B-HF (image) | 4.79 | `timeout` | `??` |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
 | Gukbap-Ovis2-16B (image) | - | - | - |
-| Bllossom-AICA-5B (image) | - | - | - |
+| Bllossom-AICA-5B (image) | `timeout` | `timeout` | `??` |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
+> timeout: It's too slow to test.
 
 ## Input type: Text📜
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
