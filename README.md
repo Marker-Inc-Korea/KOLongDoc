@@ -158,7 +158,7 @@ Accuracy: 50%
 | Qwen3.6-27B (text) | 65.44 | - | - |
 | Qwen3.5-9B (text) | 60.29 | 48.44 | 54.37 |
 | gemma-4-31B-it (text) | - | - | - |
-| gemma-4-E4B-it (text) | - | - | - |
+| gemma-4-E4B-it (text) | 44.62 | `OOM` | `??` |
 | EXAONE-4.5-33B (text) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (text) | - | - | - |
 | kanana-1.5-v-3b-instruct (text) | - | - | - |
@@ -200,7 +200,7 @@ Accuracy: 50%
 | Qwen3.6-27B (text) | 79.08 | - | - |
 | Qwen3.5-9B (text) | 73.13 | 68.55 | 70.84 |
 | gemma-4-31B-it (text) | - | - | - |
-| gemma-4-E4B-it (text) | - | - | - |
+| gemma-4-E4B-it (text) | 62.88 | `OOM` | `??` |
 | EXAONE-4.5-33B (text) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (text) | - | - | - |
 | kanana-1.5-v-3b-instruct (text) | - | - | - |
