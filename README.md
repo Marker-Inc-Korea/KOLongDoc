@@ -30,7 +30,7 @@
 이를 위해, 저희는 한국어 공공기관 문서를 [공공데이터포털](https://www.data.go.kr/)에서 수집한 후, multi-hop question and answering 문제를 제작하였습니다.😎  
 **KOLongDoc 벤치마크**는 총 200문항으로 구성되어 있으며, **복잡한 추론, multi-page understanding, 그리고 long-document understanding에 대한 한국어 능력을 평가**할 수 있습니다.⭐  
 
-KOLongDoc가 한국어 벤치마크 및 한국어 멀티모달 모델 평가에 큰 도움이 될 것이라 생각합니다!🤗  
+KOLongDoc가 한국어 벤치마크 및 한국어 멀티모달 모델 평가에 큰 도움이 될 것이라고 생각합니다!🤗  
 
 # Details of Dataset📜
 KOLongDoc는 총 100개의 문서를 **🌟매우 다양한 도메인🌟**에서 수집하였습니다.  
