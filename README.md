@@ -139,8 +139,6 @@ Accuracy: 50%
 | gemma-4-31B-it (image) | `OOM` | `OOM` | `OOM` |
 | gemma-4-26B-A4B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 19.11 | `OOM` | `OOM` |
-| InternVL3.5-30B-A3B (image) | - | - | - |
-| InternVL3.5-8B (image) | - | - | - |
 | EXAONE-4.5-33B (image) | `OOM` | `OOM` | `OOM` |
 | VARCO-VISION-2.0-14B-HF (image) | 0.74 | `timeout` | `timeout` |
 | Bllossom-AICA-5B (image) | `timeout` | `timeout` | `timeout` |
@@ -161,8 +159,6 @@ Accuracy: 50%
 | gemma-4-31B-it (text) | `OOM` | `OOM` | `OOM` |
 | gemma-4-26B-A4B-it (text) | - | - | - |
 | gemma-4-E4B-it (text) | 44.62 | `OOM` | `OOM` |
-| InternVL3.5-30B-A3B (text) | - | - | - |
-| InternVL3.5-8B (text) | - | - | - |
 | EXAONE-4.5-33B (text) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (text) | 13.24 | `OOM` | `OOM` |
 | kanana-1.5-v-3b-instruct (text) | - | - | - |
@@ -184,8 +180,6 @@ Accuracy: 50%
 | gemma-4-31B-it (image) | `OOM` | `OOM` | `OOM` |
 | gemma-4-26B-A4B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 35.81 | `OOM` | `OOM` |
-| InternVL3.5-30B-A3B (image) | - | - | - |
-| InternVL3.5-8B (image) | - | - | - |
 | EXAONE-4.5-33B (image) | `OOM` | `OOM` | `OOM` |
 | VARCO-VISION-2.0-14B-HF (image) | 4.79 | `timeout` | `timeout` |
 | Bllossom-AICA-5B (image) | `timeout` | `timeout` | `timeout` |
@@ -206,8 +200,6 @@ Accuracy: 50%
 | gemma-4-31B-it (text) | `OOM` | `OOM` | `OOM` |
 | gemma-4-26B-A4B-it (text) | - | - | - |
 | gemma-4-E4B-it (text) | 62.88 | `OOM` | `OOM` |
-| InternVL3.5-30B-A3B (text) | - | - | - |
-| InternVL3.5-8B (text) | - | - | - |
 | EXAONE-4.5-33B (text) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (text) | 18.96 | `OOM` | `OOM` |
 | Bllossom-AICA-5B (text) | 18.01 | - | - |
