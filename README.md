@@ -139,7 +139,7 @@ Accuracy: 50%
 | gemma-4-31B-it (image) | `OOM` | `OOM` | `OOM` |
 | gemma-4-26B-A4B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 19.11 | `OOM` | `OOM` |
-| EXAONE-4.5-33B (image) | - | - | - |
+| EXAONE-4.5-33B (image) | `OOM` | `OOM` | `OOM` |
 | VARCO-VISION-2.0-14B-HF (image) | 0.74 | `timeout` | `timeout` |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
 | Bllossom-AICA-5B (image) | `timeout` | `timeout` | `timeout` |
@@ -181,7 +181,7 @@ Accuracy: 50%
 | gemma-4-31B-it (image) | `OOM` | `OOM` | `OOM` |
 | gemma-4-26B-A4B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 35.81 | `OOM` | `OOM` |
-| EXAONE-4.5-33B (image) | - | - | - |
+| EXAONE-4.5-33B (image) | `OOM` | `OOM` | `OOM` |
 | VARCO-VISION-2.0-14B-HF (image) | 4.79 | `timeout` | `timeout` |
 | kanana-1.5-v-3b-instruct (image) | - | - | - |
 | Bllossom-AICA-5B (image) | `timeout` | `timeout` | `timeout` |
