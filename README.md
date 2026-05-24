@@ -122,7 +122,7 @@ Accuracy: 50%
 - text: `pymuPDF` 모듈을 활용하여, 텍스트를 전부 추출한 후 모델에 전달
 - image: PDF를 이미지 형식으로 모델에 전달
 
-모든 평가는 `max_token: 4096 or 8192`와 한 개의 A100 80GB GPU를 활용해서 수행했습니다!  
+모든 평가는 `max_token: 8192`와 한 개의 A100 80GB GPU를 활용해서 수행했습니다!  
 자세한 평가는 코드를 참고해주세요!
 
 # Results (Hard Ver.)🔥🤖🔥
