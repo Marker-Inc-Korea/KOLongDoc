@@ -163,7 +163,6 @@ Accuracy: 50%
 | EXAONE-4.5-33B (text) | - | - | - |
 | Gukbap-Ovis2-16B-VL (text) | - | - | - |
 | VARCO-VISION-2.0-14B-HF (text) | 13.24 | `OOM` | `OOM` |
-| kanana-1.5-v-3b-instruct (text) | - | - | - |
 | Bllossom-AICA-5B (text) | 9.56 | - | - |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
