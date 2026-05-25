@@ -214,6 +214,7 @@ Accuracy: 50%
 
 # To-Do list
 - [x] Release dataset
+- [x] Release results
 - [ ] Release eval code
 
 # References🌟
