@@ -124,6 +124,8 @@ Accuracy: 50%
 
 모든 평가는 `max_token: 8192`와 `한 개의 A100 80GB GPU`를 활용해서 수행했습니다!  
 자세한 평가는 코드를 참고해주세요!
+  
+*평가를 위한 GPU 지원 및 성능 결과 공유는 언제든지 환영합니다!✨
 
 # Results (Hard Ver.)🔥🤖🔥
 ## Input type: Image🖼️
