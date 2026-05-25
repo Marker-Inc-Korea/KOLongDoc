@@ -140,7 +140,7 @@ Accuracy: 50%
 | gemma-4-26B-A4B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 19.11 | `OOM` | `OOM` |
 | EXAONE-4.5-33B (image) | `OOM` | `OOM` | `OOM` |
-| Gukbap-Ovis2-16B-VL (image) | - | `OOM` | `OOM` |
+| Gukbap-Ovis2-16B-VL (image) | 6.62 | `OOM` | `OOM` |
 | VARCO-VISION-2.0-14B-HF (image) | 0.74 | `timeout` | `timeout` |
 | Bllossom-AICA-5B (image) | `timeout` | `timeout` | `timeout` |
 > L-Acc: Long Document (`< 60 pages`)  
@@ -182,7 +182,7 @@ Accuracy: 50%
 | gemma-4-26B-A4B-it (image) | - | - | - |
 | gemma-4-E4B-it (image) | 35.81 | `OOM` | `OOM` |
 | EXAONE-4.5-33B (image) | `OOM` | `OOM` | `OOM` |
-| Gukbap-Ovis2-16B-VL (image) | - | `OOM` | `OOM` |
+| Gukbap-Ovis2-16B-VL (image) | 18.21 | `OOM` | `OOM` |
 | VARCO-VISION-2.0-14B-HF (image) | 4.79 | `timeout` | `timeout` |
 | Bllossom-AICA-5B (image) | `timeout` | `timeout` | `timeout` |
 > L-Acc: Long Document (`< 60 pages`)  
