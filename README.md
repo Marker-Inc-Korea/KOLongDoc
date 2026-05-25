@@ -160,7 +160,7 @@ Accuracy: 50%
 | Qwen3.5-9B (text) | 60.29 | 48.44 | 54.37 |
 | gemma-4-31B-it (text) | `OOM` | `OOM` | `OOM` |
 | gemma-4-E4B-it (text) | 44.62 | `OOM` | `OOM` |
-| gemma-4-E2B-it (text) | - | - | - |
+| gemma-4-E2B-it (text) | `OOM` | `OOM` | `OOM` |
 | EXAONE-4.5-33B (text) | `OOM` | `OOM` | `OOM` |
 | Gukbap-Ovis2-16B-VL (text) | 25.00 | 7.81 | 16.41 |
 | VARCO-VISION-2.0-14B-HF (text) | 13.24 | `OOM` | `OOM` |
@@ -202,7 +202,7 @@ Accuracy: 50%
 | Qwen3.5-9B (text) | 73.13 | 68.55 | 70.84 |
 | gemma-4-31B-it (text) | `OOM` | `OOM` | `OOM` |
 | gemma-4-E4B-it (text) | 62.88 | `OOM` | `OOM` |
-| gemma-4-E2B-it (text) | - | - | - |
+| gemma-4-E2B-it (text) | `OOM` | `OOM` | `OOM` |
 | EXAONE-4.5-33B (text) | `OOM` | `OOM` | `OOM` |
 | Gukbap-Ovis2-16B-VL (text) | 41.81 | 21.43 | 31.62 |
 | VARCO-VISION-2.0-14B-HF (text) | 18.96 | `OOM` | `OOM` |
