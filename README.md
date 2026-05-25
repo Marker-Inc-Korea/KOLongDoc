@@ -146,6 +146,7 @@ Accuracy: 50%
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 > timeout: It's too slow to test.
+> 
 
 ## Input type: Text📜
 | models (input_type) | L-Acc | SL-Acc | Avg. Acc |
