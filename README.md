@@ -164,7 +164,7 @@ Accuracy: 50%
 | EXAONE-4.5-33B (text) | `OOM` | `OOM` | `OOM` |
 | Gukbap-Ovis2-16B-VL (text) | 25.00 | 7.81 | 16.41 |
 | VARCO-VISION-2.0-14B-HF (text) | 13.24 | `OOM` | `OOM` |
-| Bllossom-AICA-5B (text) | 9.56 | - | - |
+| Bllossom-AICA-5B (text) | 9.56 | `timeout` | `timeout` |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
@@ -206,7 +206,7 @@ Accuracy: 50%
 | EXAONE-4.5-33B (text) | `OOM` | `OOM` | `OOM` |
 | Gukbap-Ovis2-16B-VL (text) | 41.81 | 21.43 | 31.62 |
 | VARCO-VISION-2.0-14B-HF (text) | 18.96 | `OOM` | `OOM` |
-| Bllossom-AICA-5B (text) | 18.01 | - | - |
+| Bllossom-AICA-5B (text) | 18.01 | `timeout` | `timeout` |
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
