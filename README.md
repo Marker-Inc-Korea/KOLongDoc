@@ -218,6 +218,23 @@ Accuracy: 50%
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
+# Code
+```
+sh eval.sh
+```
+> `huggingface_token` 설정 필수!
+> `base_model` 변수로 VLM 모델 설정~
+  
+추천하는 환경세팅은 아래와 같습니다! (for `gemma-4` and `EXAONE-4.5-33B`)
+```bash
+conda create -n vlm_eval python=3.12 -y
+
+torch 2.6.0+
+transformers 5.8.0+
+pymuPDF
+accelerate
+```
+  
 # To-Do list
 - [x] Release dataset
 - [x] Release results ver1
