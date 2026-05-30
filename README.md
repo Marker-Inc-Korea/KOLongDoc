@@ -218,7 +218,7 @@ Accuracy: 50%
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
-# Code
+# Evaluation Code
 ```
 sh eval.sh
 ```
