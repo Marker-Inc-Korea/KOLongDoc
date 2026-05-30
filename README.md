@@ -251,7 +251,7 @@ eval.py
 eval.sh
 function (폴더)
 dataset (폴더; create)
-├── dataset (PDF 폴더; create)
+├── dataset (PDF 폴더)
     ├── less_60
     └── more_60
 ├── dataset_image (PDF 이미지 폴더; create)
