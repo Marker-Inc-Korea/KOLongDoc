@@ -127,7 +127,7 @@ Accuracy: 50%
 
 추가적으로 모델별로 long document와 super long document에 대한 성능을 각각 구분해서 제공했습니다!
 - `L-Acc`: Long document에 대한 정확도 (60 페이지 미만)
-- 'SL-Acc': Super Long document에 대한 정확도 (60 페이지 이상)
+- `SL-Acc`: Super Long document에 대한 정확도 (60 페이지 이상)
 
 모든 평가는 `max_token: 8192`와 `한 개의 A100 80GB GPU`를 활용해서 수행했습니다!  
 자세한 평가는 코드를 참고해주세요!
