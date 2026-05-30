@@ -8,6 +8,7 @@
 
 # News
 **2025-05-31**: `Blakcwell 96GB GPU` 대여로, `gemma-4` 및 `EXAONE-4.5-33B` 평가 진행중.🔥🔥  
+  
 **2025-05-30**: KOlongDoc 데이터셋 공개!🔥🔥  
 - **Dataset Huggingface😊:** [Markr-AI/KOLongDoc](https://huggingface.co/datasets/Markr-AI/KOLongDoc)  
 - **KOLongDoc Blog😎**: [Blog Posting]()
