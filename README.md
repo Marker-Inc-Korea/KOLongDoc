@@ -218,13 +218,8 @@ Accuracy: 50%
 > L-Acc: Long Document (`< 60 pages`)  
 > SL-Acc: Super Long Document (`> 60 pages`)  
 
-# Evaluation Code
-```
-sh eval.sh
-```
-> `huggingface_token` 설정 필수!
-> `base_model` 변수로 VLM 모델 설정~
-  
+# Evaluation Code🌟
+## Setting
 추천하는 환경세팅은 아래와 같습니다! (for `gemma-4` and `EXAONE-4.5-33B`)
 ```bash
 conda create -n vlm_eval python=3.12 -y
@@ -235,6 +230,45 @@ pymuPDF
 accelerate
 ```
   
+그 다음, 벤치마크 데이터셋을 [Markr-AI/KOLongDoc](https://huggingface.co/datasets/Markr-AI/KOLongDoc)에서 다운 받은 후, 아래의 함수를 활용해서 PDF를 모두 이미지로 추출해야합니다!  
+```python
+# PDF → 이미지 변환 함수
+def convert_pdf_to_images(pdf_path, save_dir):
+    '''
+    pdf_path: PDF 파일이 담겨 있는 폴더 경로와 이름
+    save_dir: 이미지를 저장할 폴더 이름
+    '''
+    os.makedirs(save_dir, exist_ok=True)
+    
+    images = convert_from_path(pdf_path, dpi=200, poppler_path='./poppler-25.12.0/Library/bin')  # dpi는 필요에 따라 조절
+    for i, img in enumerate(images):
+        img.save(os.path.join(save_dir, f"{i}.png"), "PNG")
+```
+
+그리고 아래와 같이 경로를 설정해주세요! (custom 가능)  
+```
+eval.py
+eval.sh
+function (폴더)
+dataset (폴더; create)
+├── dataset (PDF 폴더; create)
+    ├── less_60
+    └── more_60
+├── dataset_image (PDF 이미지 폴더; create)
+    ├── less_60
+    └── more_60
+├── eval (결과저장폴더; create)
+├── KLongDocURL_L_ver1.xlsx
+└── KLongDocURL_SL_ver1.xlsx
+```
+  
+## Code
+```
+sh eval.sh
+```
+> `huggingface_token` 설정 필수!
+> `base_model` 변수로 VLM 모델 설정~
+
 # To-Do list
 - [x] Release dataset
 - [x] Release results ver1
